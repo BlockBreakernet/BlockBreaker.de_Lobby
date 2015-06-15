@@ -7,9 +7,10 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by Lukas on 15.06.2015.
+ * Created by Lukas on 26.03.2015.
  */
 public class MySQLFile {
+
     public void setStandard() {
         FileConfiguration cfg = getFileConfiguration();
 

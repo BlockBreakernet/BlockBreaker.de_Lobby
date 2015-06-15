@@ -1,0 +1,9 @@
+name: BlockBreaker.de Lobby
+version: 0.1
+description: Verwaltet die BlockBreaker.de Lobby
+author: lusu007
+main: de.blockbreaker.lobby.Lobby
+
+commands:
+
+permissions:
