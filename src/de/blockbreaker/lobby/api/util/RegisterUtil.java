@@ -1,4 +1,4 @@
-package de.blockbreaker.lobby.api;
+package de.blockbreaker.lobby.api.util;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;

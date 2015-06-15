@@ -1,6 +1,6 @@
 package de.blockbreaker.lobby;
 
-import de.blockbreaker.lobby.api.RegisterUtil;
+import de.blockbreaker.lobby.api.util.RegisterUtil;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -13,6 +13,10 @@ public class Lobby extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+
+        MySQLFile file = new MySQLFile();
+        file.setStandard();
+        file.readData();
 
         RegisterUtil<Lobby> register = new RegisterUtil<Lobby>(this);
     }
